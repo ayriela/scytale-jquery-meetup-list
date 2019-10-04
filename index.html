@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="jquery.js"></script>
+    <script src="client.js"></script>
+    <title>jQuery Meetup List</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="addNew">
+        <input type="text" id="newGroup" placeholder="Group Name">New Group</input>
+        <input type="text" id="newDate" placeholder="Meetup Date">Next Meetup Date</input>
+        <button id="addMeetup">Add Meetup</button>
+    </div>
+    <table id="meetupTable" >
+        <tr>
+            <th>Group</th>
+            <th>Next Meetup</th> 
+            <th>Delete</th>
+        </tr>
+        <tr id="1">
+            <th>JS MN</th>
+            <th>10/18/2019</th> 
+            <th><button id="delete1">Delete</button></th>
+        </tr>
+    </table>
+    <p id="totalMeetup">Total Meetups:</p>
+    
+</body>
+</html>
