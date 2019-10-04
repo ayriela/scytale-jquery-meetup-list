@@ -5,7 +5,7 @@
 - add onReady function for page load
 - add  inputs for "New Group" and "Next Date" to html
 	- make sure the inputs and add meetup are displayed inline (css or html)
-	- looks like they want label above the input field  (css or html)
+	-  swap to placeholders: looks like they want label above the input field  (css or html)
 
 - add button for "addMeetup" (html)
 	- add event listening for meetup action to append values to table (js `addMeetup()`)

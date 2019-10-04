@@ -11,8 +11,8 @@
 </head>
 <body>
     <div class="addNew">
-        <input type="text" id="newGroup" placeholder="Group Name">New Group</input>
-        <input type="text" id="newDate" placeholder="Meetup Date">Next Meetup Date</input>
+        <input type="text" id="newGroup" placeholder="Group Name"></input>
+        <input type="text" id="newDate" placeholder=" Next Meetup Date"></input>
         <button id="addMeetup">Add Meetup</button>
     </div>
     <table id="meetupTable" >
@@ -22,12 +22,16 @@
             <th>Delete</th>
         </tr>
         <tr id="1">
-            <th>JS MN</th>
-            <th>10/18/2019</th> 
-            <th><button id="delete1">Delete</button></th>
+            <td>JS MN</td>
+            <td>10/18/2019</td> 
+            <td>
+                <button class="delete">Delete</button>
+            </td>
         </tr>
     </table>
-    <p id="totalMeetup">Total Meetups:</p>
+    <div id="totalMeetup">
+        <p>Total Meetups:</p>
+    </div>
     
 </body>
 </html>
